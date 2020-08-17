@@ -3,7 +3,147 @@ guid: 54d3cb950d0a9164cb917776f91f6483
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bulletin Board
+    second: {fileID: 2100000, guid: 31f80da682d7e2c4f8589370a940be6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Can
+    second: {fileID: 2100000, guid: 15fa60413118f96429f40445c704a875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Can.001
+    second: {fileID: 2100000, guid: fb60813c5f9b6d8409459ee5ca0e24b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coffee Table
+    second: {fileID: 2100000, guid: 4a6263f8f345c504b84aa10792346445, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elevator Buttons
+    second: {fileID: 2100000, guid: 529f6b217d6329c46b15161b03b3c587, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elevator Door
+    second: {fileID: 2100000, guid: 8b31a71d98082f743af1ea89ab2996b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elevator Door.001
+    second: {fileID: 2100000, guid: 8e43ae4259be51247a4eb1f3f4961181, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elevator Doorframe
+    second: {fileID: 2100000, guid: 39510e907cb03714389781db54204b9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Keyboard
+    second: {fileID: 2100000, guid: 9e3b8892f5295a8449c241423ac47ed5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: cf41f50093ea71247991f3e59a1ae525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.001
+    second: {fileID: 2100000, guid: bfb837cb1823ca044963cc9796994a45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.002
+    second: {fileID: 2100000, guid: 26ff836d84fbd9c4b9f4f88a31ed55d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lobby Ceiling
+    second: {fileID: 2100000, guid: 55107bf3068b84e4484e925ab0a8b4a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lobby Floor
+    second: {fileID: 2100000, guid: 403243dd99d5efb448a2d7eeef1e3b09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lobby Wall
+    second: {fileID: 2100000, guid: 5d09dd510214b2f4ea9ae28011708691, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mailboxes
+    second: {fileID: 2100000, guid: ea817f043c5ae704fb9faa95a19a95f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Monitor
+    second: {fileID: 2100000, guid: 8d330e08cc169fd468febd291b430cf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mug
+    second: {fileID: 2100000, guid: 93cfaf27058902949bf512d733212616, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pizza Box
+    second: {fileID: 2100000, guid: 0e2f889a9cd4e3c4c9e76e1a3b11819f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poster
+    second: {fileID: 2100000, guid: c44e5c60e28413a4d9d4a8ea7835bfd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Recycle Bin
+    second: {fileID: 2100000, guid: a9cc848fbd7b92747aaa420f67158f04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sofa
+    second: {fileID: 2100000, guid: 213a85cad804c5746a1c795a533b4ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sofa.001
+    second: {fileID: 2100000, guid: bc24498ac84111949802e8f984c16689, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vending Machine
+    second: {fileID: 2100000, guid: 6a630f541a742fd47bef47070c3e2590, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Wall
+    second: {fileID: 2100000, guid: 9f4cc8e17bff1184d993b448951aa1e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Wall.001
+    second: {fileID: 2100000, guid: 423965d5995710949b6ce82879490b71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Wall.002
+    second: {fileID: 2100000, guid: 9c1f1a855df97c7419e887f4d24543ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Wall.003
+    second: {fileID: 2100000, guid: b7f27c83c1a543a4397bcc25d98e1f40, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -41,11 +181,11 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -57,11 +197,11 @@ ModelImporter:
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
     secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
+    secondaryUVMinObjectScale: 100
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:

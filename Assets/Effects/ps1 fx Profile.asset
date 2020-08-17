@@ -118,8 +118,8 @@ MonoBehaviour:
     min: 0
     max: 1
   color:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0.9
     min: 0
     max: 1
   alpha:
@@ -129,19 +129,19 @@ MonoBehaviour:
     max: 1
   affineTextureWarping:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0
     min: 0
     max: 1
   framebufferDither:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0.05
     min: 0
     max: 1
   drawDistanceFalloffMode:
     m_OverrideState: 0
     m_Value: 0
   drawDistance:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 15
     min: 0
 --- !u!114 &-6766226449518131777
@@ -179,8 +179,8 @@ MonoBehaviour:
     min: 1
     max: 256
   dynamicLightsMaxPerObjectCount:
-    m_OverrideState: 0
-    m_Value: 4
+    m_OverrideState: 1
+    m_Value: 8
     min: 1
     max: 32
 --- !u!114 &-6212533513411639435
@@ -311,7 +311,7 @@ MonoBehaviour:
     m_Value: 0
     min: 0
   distanceMax:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 20
     min: 0.00001
   heightFalloffEnabled:

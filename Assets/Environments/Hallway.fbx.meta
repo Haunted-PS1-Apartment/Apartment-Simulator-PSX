@@ -3,7 +3,332 @@ guid: 5294a97f28761f947a30de3dab167c9a
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boots
+    second: {fileID: 2100000, guid: 699d22ba5eda10447bb322677f664699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boxes
+    second: {fileID: 2100000, guid: 6a7ef6cabf7b5404a845c2c4bf237930, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boxes2
+    second: {fileID: 2100000, guid: 04fc08b3337d49b40ba14e6c9993927f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boxes3
+    second: {fileID: 2100000, guid: d52a84b36303ce648b86f8417e6d0f4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeilingMaterial
+    second: {fileID: 2100000, guid: eef79cd9f9f5afa458969b214f66ce8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 59c6de463acd5214a8548d8c476ad69b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.001
+    second: {fileID: 2100000, guid: c82f68ced64253644bbc86031a84c7c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.002
+    second: {fileID: 2100000, guid: 02c455976c9c50949839aa846ec0ec83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.003
+    second: {fileID: 2100000, guid: 14697e7ae44b58e498debbf578d7400b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.004
+    second: {fileID: 2100000, guid: 51c694f2925e3e04790e7ef01de7f594, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.005
+    second: {fileID: 2100000, guid: f89ebd6c213e51a4b8549bf12e018014, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.006
+    second: {fileID: 2100000, guid: 6cad8d876b7d81d419fc5bbc4e3e179b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.012
+    second: {fileID: 2100000, guid: fd3b01de657a5ed4f9379809d547f731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.013
+    second: {fileID: 2100000, guid: f7561f00e1c9d1140a09a4c49db1573e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.014
+    second: {fileID: 2100000, guid: 070c2648924016d4698477c4a7e4b3f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door.015
+    second: {fileID: 2100000, guid: 62e3279ccf7376a489cf7a10a926471a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorBloodied
+    second: {fileID: 2100000, guid: 94c555b1e8cb19c4a9881b455e447346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorMeat
+    second: {fileID: 2100000, guid: edc24c10529157e4ab4469f3191c98be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doorbell
+    second: {fileID: 2100000, guid: 308c6be0d5642c34d8db25b88f724491, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doorbell.001
+    second: {fileID: 2100000, guid: cff300a5f880a404f98c9db4ac97c483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doorbell.002
+    second: {fileID: 2100000, guid: 399afa89c7e40414fa5c78171420ab25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doorbell.003
+    second: {fileID: 2100000, guid: 75576f655e1b5d744bf34a53f799205d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doorbell.004
+    second: {fileID: 2100000, guid: 2aa7d95668e114f4eae8ef2ce09d44e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doorbell.005
+    second: {fileID: 2100000, guid: 5777a4ace3cf9c94eb350ecc7a5da3b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Doorbell.006
+    second: {fileID: 2100000, guid: 54b86f930a7520c4cb05b5558b904a24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorbellBloodied
+    second: {fileID: 2100000, guid: 50f61302cbb5ada488079ef95ee3bd77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elevator Buttons.001
+    second: {fileID: 2100000, guid: ddf5da9e226709c47adbd72b6569fccb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elevator Door.002
+    second: {fileID: 2100000, guid: f3d97a2e590cce2429010d98c370625f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elevator Door.003
+    second: {fileID: 2100000, guid: e13ff75f6586b744f849514e907902d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elevator Doorframe.001
+    second: {fileID: 2100000, guid: e02307eb45b7ffa40969efc829b96595, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: e972759a23b68c74cb918693dac130d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gore
+    second: {fileID: 2100000, guid: 222b547a53c6d664fba9772f6d49bb3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 227e66244596ecd4cac0c6fc19243714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.001
+    second: {fileID: 2100000, guid: 21bfde849215a9941866f77ef5e01058, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.002
+    second: {fileID: 2100000, guid: 1be198fb37f7adf41a92662a7016afc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.003
+    second: {fileID: 2100000, guid: 306f7647409aa1a42a57beb33faf4963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.004
+    second: {fileID: 2100000, guid: 4aa09017246408947af1b1c5cdd2a261, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.005
+    second: {fileID: 2100000, guid: 2095abfa2b7dda342ac79aac01b45571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.006
+    second: {fileID: 2100000, guid: cd91ae07bec0ad740b289cd296331421, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.007
+    second: {fileID: 2100000, guid: 52d5196df1e24b349bd25339a1113d78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.008
+    second: {fileID: 2100000, guid: 41e32589274f77d40aa63148cf948bff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.009
+    second: {fileID: 2100000, guid: ecd42d9925cbd72498748c907a18d647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light.010
+    second: {fileID: 2100000, guid: 36525120db8dc6245b8c353da7a90061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightBloodied
+    second: {fileID: 2100000, guid: d020d7b7882448f4bae284a2b0f2bcca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightMeat
+    second: {fileID: 2100000, guid: 04044f704945d1341946c9545397ece4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meat
+    second: {fileID: 2100000, guid: 92276b07c28e0fd4a8f878a6fba3b3e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meat.001
+    second: {fileID: 2100000, guid: 9a2f01e284ae49348b490595d8da7c43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meat.002
+    second: {fileID: 2100000, guid: 38e9452772642de47b3b38d9e362d4e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meat.003
+    second: {fileID: 2100000, guid: 26b4f94438d9800408fa414b96ff07cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meat.004
+    second: {fileID: 2100000, guid: 7576338a238fdad4f8d107f0114c67ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meat.005
+    second: {fileID: 2100000, guid: 8b78597af99f4b548bcd202d97630235, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meat.006
+    second: {fileID: 2100000, guid: 70ba6c6d7d48eb747a14dc93a151c9c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe
+    second: {fileID: 2100000, guid: 4b0c40a81b249c74e867ea4422aaa782, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe.001
+    second: {fileID: 2100000, guid: efedb9daf6f2699439a093e7c78844ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe.002
+    second: {fileID: 2100000, guid: 65e4213e58d57bc4a827f0e94fd0c216, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe.003
+    second: {fileID: 2100000, guid: 63654047d590bbc40865015fc5885846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe.004
+    second: {fileID: 2100000, guid: f8cf04e6f466ee3489fe31515668cc1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe.005
+    second: {fileID: 2100000, guid: 81e788282e8faeb419a327c126d36e77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe.006
+    second: {fileID: 2100000, guid: 87fa9f9e805be0c4aa0aa117d06c5364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pipe.007
+    second: {fileID: 2100000, guid: c78cb1c2ceb47dc48bd73c555dacdcfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poster1
+    second: {fileID: 2100000, guid: 8dbcfb61c12a15c43926867218c298bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poster2
+    second: {fileID: 2100000, guid: ee18fe3f66c18574d8a5d424bb41c46d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Poster2Bloodied
+    second: {fileID: 2100000, guid: 184054701b144b244b355b248238dab6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sofa
+    second: {fileID: 2100000, guid: 557f10787e8ce7846a2157fb535ce628, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: 38a35e622e7ab3c419088e648a563808, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -39,13 +364,13 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -57,23 +382,23 @@ ModelImporter:
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
     secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
+    secondaryUVMinObjectScale: 100
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -88,11 +413,11 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
   additionalBone: 0
