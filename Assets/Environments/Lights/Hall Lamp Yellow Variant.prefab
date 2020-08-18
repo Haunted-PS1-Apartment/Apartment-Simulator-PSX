@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2328199744970203011, guid: d922a5fab661f594aa7de051ea609cbd, type: 3}
       propertyPath: m_Name
-      value: Hall Lamp Yellow
+      value: Hall Lamp Yellow Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6382125176185716623, guid: d922a5fab661f594aa7de051ea609cbd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -66,6 +66,14 @@ PrefabInstance:
     - target: {fileID: 7154469874560608017, guid: d922a5fab661f594aa7de051ea609cbd, type: 3}
       propertyPath: m_Color.b
       value: 0.6556604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154469874560608017, guid: d922a5fab661f594aa7de051ea609cbd, type: 3}
+      propertyPath: m_Range
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154469874560608017, guid: d922a5fab661f594aa7de051ea609cbd, type: 3}
+      propertyPath: m_Shadows.m_NearPlane
+      value: 0.099999994
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d922a5fab661f594aa7de051ea609cbd, type: 3}

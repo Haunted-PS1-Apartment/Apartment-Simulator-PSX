@@ -37,16 +37,6 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Door.001
-    second: {fileID: 2100000, guid: c82f68ced64253644bbc86031a84c7c3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Door.002
-    second: {fileID: 2100000, guid: 02c455976c9c50949839aa846ec0ec83, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Door.003
     second: {fileID: 2100000, guid: 14697e7ae44b58e498debbf578d7400b, type: 2}
   - first:
@@ -99,36 +89,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Doorbell
     second: {fileID: 2100000, guid: 308c6be0d5642c34d8db25b88f724491, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Doorbell.001
-    second: {fileID: 2100000, guid: cff300a5f880a404f98c9db4ac97c483, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Doorbell.002
-    second: {fileID: 2100000, guid: 399afa89c7e40414fa5c78171420ab25, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Doorbell.003
-    second: {fileID: 2100000, guid: 75576f655e1b5d744bf34a53f799205d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Doorbell.004
-    second: {fileID: 2100000, guid: 2aa7d95668e114f4eae8ef2ce09d44e8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Doorbell.005
-    second: {fileID: 2100000, guid: 5777a4ace3cf9c94eb350ecc7a5da3b2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Doorbell.006
-    second: {fileID: 2100000, guid: 54b86f930a7520c4cb05b5558b904a24, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
