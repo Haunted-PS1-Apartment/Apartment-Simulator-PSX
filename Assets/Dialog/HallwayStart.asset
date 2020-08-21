@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8595dd13386c8419704c91c417055f, type: 3}
+  m_Name: HallwayStart
+  m_EditorClassIdentifier: 
+  nodes:
+  - dialog: 'The building plans show that there are 8 apartments. '
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: Shouldn't be too hard to dig through.
+    profile: {fileID: 0}
