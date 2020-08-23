@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8595dd13386c8419704c91c417055f, type: 3}
+  m_Name: FinalConversation
+  m_EditorClassIdentifier: 
+  nodes:
+  - dialog: "YOU ARE HERE TO KILL ME.\r"
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "IT'SSS WHAT THEY WANT. \rTHEY FEAR ME."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: THEY FEAR WHAT I HAVE BECOME.
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: I DON'T WANT TO DIE.
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: So you can speak.
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "You\u2019re in pain\u2026 You\u2019re hungry, you\u2019re scared.\r"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: 'That much I understand but what you did was wrong.
+
+'
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "WHATT THOSE HUMANS DID TO ME WAS WRONG\r."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "THIS FORM HURTS\r.\nI CAN FEEL THEIR PAIN\r.\nI CAN HEAR THEIR CRIES."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: I AM IN HELL.
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "BUT I AM HUNGRY\r...\nAND SCARED\r..."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "AND WHEN I FEED THE PAIN GOES AWAY\r.\nTHEIR VOICES DIE OUT.\n"
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: I DON'T WANT TO DIE.
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "Can you bring them back?\r"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "I CANNOT\r."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "THEY ARE THE VERY GROUND UPON WHICH YOU WALK.\nTHE THICK AURA IN THE
+      AIR\r."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "THEY CAN ONLY WATCH IN HORROR\r KNOWING THAT THERE IS NO GOING BACK.\r"
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "OUR THOUGHTS INTERTWINE.\r"
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "THEY LONG FOR DEATH\r...\nYET THEY ALREADY DEAD."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "BUT I DON'T WANT TO DIE\r.\nPLEASE DON'T KILL ME.\r"
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "\u2026"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "Would you agree to help if\u2026\r"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "If I told you we could take down the ones who did this to you?\r"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "I can\u2019t forgive what you\u2019ve done to these people\u2026\r"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "But I also can\u2019t forgive the people who caused this in the first
+      place."
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "They want me to exterminate you because they want to hide what they\u2019re
+      doing."
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: Not... because they care about the missing residents.
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: HHHHHHHHHH...
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "Work with me and I will find a way to send you back home.\r I promise."
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "I refuse to kill you because that\u2019s what WynCo wants,\r but don\u2019t
+      make me force my hand.\r"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: ...
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: 'VERY WELL.
+
+      I SHALL AID YOU.'
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: Thank you.
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "If we\u2019re to be partners, I would like to know your name.\r"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "IIIII HAVE NO NAME\r.\nI NEED NO NAME."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "Okay, I suppose we can work on that later\u2026"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "I\u2019m agent Kristy Reynolds.\r\nJust call me Kristy.\r"
+    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+  - dialog: "VERY WELL.\r\n...KRRISTYY\r."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
+  - dialog: "IT WILL BE A PLEASURE WORKING WITH YOU\r."
+    profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
