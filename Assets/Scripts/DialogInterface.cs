@@ -6,16 +6,16 @@ using UnityEngine.UI;
 
 public class DialogInterface : MonoBehaviour
 {
-    [SerializeField] TMPro.TextMeshProUGUI dialogText;
-    [SerializeField] Animator animator;
-    [SerializeField] RawImage profileImage;
+    [SerializeField] TMPro.TextMeshProUGUI dialogText = null;
+    [SerializeField] Animator animator = null;
+    [SerializeField] RawImage profileImage = null;
 
     bool shown = false;
     Texture2D queuedTexture = null;
 
     public void ShowDialog(ConversationNode node)
     {
-        dialogText.text = node.dialog;
+        dialogText.SetText(node.dialog);
         if (shown)
         {
             if (profileImage.texture != node.profile)
