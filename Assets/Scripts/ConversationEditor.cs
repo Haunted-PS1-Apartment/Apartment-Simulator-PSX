@@ -15,14 +15,21 @@ public class ConversationEditor : Editor
 
     Font font;
 
+
     void OnEnable()
     {
         convo = (Conversation)target;
         targetObject = new SerializedObject(convo);
         targetList = targetObject.FindProperty("nodes"); // Find the List in our script and create a refrence of it
         font = AssetDatabase.LoadAssetAtPath<Font>("Assets/UI/Fonts/IBMPlexMono-Medium.ttf");
-        EditorStyles.textArea.wordWrap = true;
-        EditorStyles.textArea.font = font;
+    }
+
+    GUIStyle TextStyle()
+    {
+        GUIStyle textStyle = new GUIStyle(EditorStyles.textArea);
+        textStyle.wordWrap = true;
+        textStyle.font = font;
+        return textStyle;
     }
 
     public override void OnInspectorGUI()
@@ -38,7 +45,7 @@ public class ConversationEditor : Editor
             SerializedProperty dialog = node.FindPropertyRelative("dialog");
             SerializedProperty profile = node.FindPropertyRelative("profile");
 
-            dialog.stringValue = EditorGUILayout.TextArea(dialog.stringValue, EditorStyles.textArea, 
+            dialog.stringValue = EditorGUILayout.TextArea(dialog.stringValue, TextStyle(), 
                 GUILayout.Height(60), GUILayout.Width(184));
             EditorGUILayout.PropertyField(profile);
 
