@@ -15,7 +15,10 @@ MonoBehaviour:
   nodes:
   - dialog: Oh, that reminds me!
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: If you'd like coffee later I'll put on a fresh pot for you!
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: 'That sounds wonderful. '
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 5

@@ -15,5 +15,7 @@ MonoBehaviour:
   nodes:
   - dialog: These beds make themselves! Perfect for someone on the go.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 1
   - dialog: "I can\u2019t say the same about mine, haha\u2026"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 4

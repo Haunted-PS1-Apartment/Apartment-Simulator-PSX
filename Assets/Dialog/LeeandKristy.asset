@@ -15,39 +15,57 @@ MonoBehaviour:
   nodes:
   - dialog: Oh, you must be the agent we called!
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: "I\u2019m Lee. Lee Mitchell. Uh, maintenance personnel.\r"
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: "Pleased to meet you, I\u2019m Agent Kristy Reynolds but please just
       call me Kristy."
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 5
   - dialog: "Well, Kristy, ah\u2026 it happened on the 5th floor."
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: "I\u2019m really worried it\u2019s gonna spread.\r"
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: Spread??
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 2
   - dialog: It started with room 501.
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: Noise complaints, tremors, and then poof! No one there.
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: Cops brushed his disappearance off as a dispute over ghost pills or something.
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: Sounds like someone wants to keep this hush-hush.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 4
   - dialog: "Do you think WynCo\u2019s behind it?"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 2
   - dialog: "You know I can\u2019t say anything bad about my employers, haha\u2026"
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: "\u2026"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 1
   - dialog: "\u2026 Anyway, I\u2019d come with you but that floor gives me bad vibes
       like I\u2019m being watched."
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: Can't even access it via the stairs now.
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: "The doors should all be unlocked though!\r"
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0
   - dialog: "Thanks, Lee. Don\u2019t you worry.\n"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 5
   - dialog: "I\u2019ll get to the bottom of this.\r"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 1

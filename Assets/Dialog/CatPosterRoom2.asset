@@ -15,5 +15,7 @@ MonoBehaviour:
   nodes:
   - dialog: Every WynCo-owned apartment comes fit with a motivational poster.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 1
   - dialog: Anything to keep you going.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 1

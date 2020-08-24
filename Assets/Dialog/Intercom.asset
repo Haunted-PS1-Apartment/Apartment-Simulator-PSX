@@ -15,5 +15,7 @@ MonoBehaviour:
   nodes:
   - dialog: 'The intercom model looks to be at least five years-old. '
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 1
   - dialog: Nothing here is exactly state-of-the-art.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 1
