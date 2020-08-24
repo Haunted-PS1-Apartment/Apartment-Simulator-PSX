@@ -44,10 +44,12 @@ public class ConversationEditor : Editor
             SerializedProperty node = targetList.GetArrayElementAtIndex(i);
             SerializedProperty dialog = node.FindPropertyRelative("dialog");
             SerializedProperty profile = node.FindPropertyRelative("profile");
+            SerializedProperty anim = node.FindPropertyRelative("playerAnimation");
 
             dialog.stringValue = EditorGUILayout.TextArea(dialog.stringValue, TextStyle(), 
                 GUILayout.Height(60), GUILayout.Width(184));
             EditorGUILayout.PropertyField(profile);
+            EditorGUILayout.PropertyField(anim);
 
             //Remove this index from the List
             if (GUILayout.Button("X", GUILayout.Width(30)))

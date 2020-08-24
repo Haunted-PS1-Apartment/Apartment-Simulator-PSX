@@ -8,6 +8,8 @@ public class DialogNode : MonoBehaviour
     [SerializeField]
     public List<Conversation> conversations = new List<Conversation>();
     [SerializeField]
+    bool turnToFace = true;
+    [SerializeField]
     GameObject indicator = null;
     int index = 0;
 
@@ -22,6 +24,8 @@ public class DialogNode : MonoBehaviour
         index = Math.Min(index + 1, conversations.Count - 1);
         return conversations[lastIndex];
     }
+
+    public bool TurnToFace => turnToFace;
 
     public void SetVisible(bool visible)
     {

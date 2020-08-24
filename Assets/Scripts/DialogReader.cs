@@ -40,10 +40,12 @@ public class DialogReader : MonoBehaviour
             {
                 currentConversation = null;
                 dialogUI.CloseDialog();
+                movement.EndAnimation();
             } 
             else
             {
                 dialogUI.ShowDialog(currentConversation.nodes[conversationIndex]);
+                movement.StartAnimation(currentConversation.nodes[conversationIndex].playerAnimation);
             }
         }
         else if(currentNode != null)
@@ -51,6 +53,8 @@ public class DialogReader : MonoBehaviour
             currentConversation = currentNode.GetConversation();
             conversationIndex = 0;
             dialogUI.ShowDialog(currentConversation.nodes[conversationIndex]);
+            movement.StartAnimation(currentConversation.nodes[conversationIndex].playerAnimation, 
+                currentNode.TurnToFace ? currentNode.transform : null);
         }
     }
 
