@@ -104,28 +104,12 @@ public class PlayerMovement : MonoBehaviour
             else if (movement.y < 0)
             {
                 body.velocity = -transform.forward * speed; //go backward
-                kristyAnimator.SetBool("Backwards", true);
+                kristyAnimator.SetBool("Walk", true);
             }
             else
             {
                 body.velocity = Vector3.zero; //stop.
                 kristyAnimator.SetBool("Walk", false);
-                kristyAnimator.SetBool("Backwards", false);
-                if (movement.x < 0)
-                {
-                    kristyAnimator.SetBool("TurnLeft", true);
-                    kristyAnimator.SetBool("TurnRight", false);
-                }
-                else if (movement.x > 0)
-                {
-                    kristyAnimator.SetBool("TurnLeft", false);
-                    kristyAnimator.SetBool("TurnRight", true);
-                } 
-                else
-                {
-                    kristyAnimator.SetBool("TurnLeft", false);
-                    kristyAnimator.SetBool("TurnRight", false);
-                }
             }
 
             if (movement.x < 0)
