@@ -13,4 +13,5 @@ public class ConversationNode
 {
     public string dialog;
     public Texture2D profile;
+    public PlayerMovement.PlayerAnim playerAnimation = PlayerMovement.PlayerAnim.None;
 }
