@@ -100,11 +100,15 @@ public class PlayerMovement : MonoBehaviour
             {
                 body.velocity = transform.forward * speed; //go forward
                 kristyAnimator.SetBool("Walk", true);
+                kristyAnimator.SetBool("TurnLeft", false);
+                kristyAnimator.SetBool("TurnRight", false);
             }
             else if (movement.y < 0)
             {
                 body.velocity = -transform.forward * speed; //go backward
                 kristyAnimator.SetBool("Backwards", true);
+                kristyAnimator.SetBool("TurnLeft", false);
+                kristyAnimator.SetBool("TurnRight", false);
             }
             else
             {
