@@ -15,5 +15,7 @@ MonoBehaviour:
   nodes:
   - dialog: How long ago was the first resident reported missing?
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
+    playerAnimation: 1
   - dialog: A little over a week ago. I'm worried...
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
+    playerAnimation: 0

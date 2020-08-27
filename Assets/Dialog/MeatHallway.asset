@@ -15,10 +15,10 @@ MonoBehaviour:
   nodes:
   - dialog: The stairs were supposed to be here...
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 0
+    playerAnimation: 1
   - dialog: Now I understand why Lee said this floor is inaccessible via the stairway.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 0
+    playerAnimation: 1
   - dialog: "Seems like they were right about the hallway\u2026 growing."
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 4
+    playerAnimation: 1

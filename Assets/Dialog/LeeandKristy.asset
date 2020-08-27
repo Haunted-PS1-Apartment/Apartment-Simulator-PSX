@@ -31,7 +31,7 @@ MonoBehaviour:
     playerAnimation: 0
   - dialog: Spread??
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 2
+    playerAnimation: 1
   - dialog: It started with room 501.
     profile: {fileID: 2800000, guid: bd8ac0366bd57844ba8f17cf56f3e322, type: 3}
     playerAnimation: 0
