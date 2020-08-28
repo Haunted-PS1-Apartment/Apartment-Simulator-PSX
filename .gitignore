@@ -58,3 +58,14 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/Environments/Clutter.meta
+Assets/Environments/Clutter/Boxes.fbx.meta
+Assets/Environments/Clutter/Can.fbx.meta
+Assets/Environments/Clutter/CanCrushed.fbx.meta
+Assets/Environments/Clutter/Chips.fbx.meta
+Assets/Environments/Clutter/Clutter Textures.meta
+Assets/Environments/Clutter/Clutter Textures/Chips.png.meta
+Assets/Environments/Clutter/Clutter Textures/Magazine.png.meta
+Assets/Environments/Clutter/Magazine.fbx.meta
+Assets/Environments/Clutter/Mug.fbx.meta
+Assets/Environments/Clutter/PizzaBox.fbx.meta

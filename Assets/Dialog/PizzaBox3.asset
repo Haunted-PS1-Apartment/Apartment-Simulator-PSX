@@ -10,9 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd8595dd13386c8419704c91c417055f, type: 3}
-  m_Name: Laptop
+  m_Name: PizzaBox3
   m_EditorClassIdentifier: 
   nodes:
-  - dialog: "Now let\u2019s see if there\u2019s anything interesting\u2026"
+  - dialog: Aww, empty as well.
     profile: {fileID: 0}
-    playerAnimation: 6
+    playerAnimation: 0
+  - dialog: ... Wait, why am I sad about that. This box has been sitting here for
+      at least a week!
+    profile: {fileID: 0}
+    playerAnimation: 0
