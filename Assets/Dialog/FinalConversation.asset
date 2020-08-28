@@ -18,13 +18,13 @@ MonoBehaviour:
     playerAnimation: 1
   - dialog: "IT'SSS WHAT THEY WANT. \rTHEY FEAR ME."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: THEY FEAR WHAT I HAVE BECOME.
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: I DON'T WANT TO DIE.
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: So you can speak.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 1
@@ -41,32 +41,32 @@ MonoBehaviour:
     playerAnimation: 1
   - dialog: "THIS FORM HURTS\r.\nI CAN FEEL THEIR PAIN\r.\nI CAN HEAR THEIR CRIES."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: I AM IN HELL.
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "BUT I AM HUNGRY\r...\nAND SCARED\r..."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "AND WHEN I FEED THE PAIN GOES AWAY\r.\nTHEIR VOICES DIE OUT.\n"
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: I DON'T WANT TO DIE.
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "Can you bring them back?\r"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "I CANNOT\r."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "THEY ARE THE VERY GROUND UPON WHICH YOU WALK.\nTHE THICK AURA IN THE
       AIR\r."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "THEY CAN ONLY WATCH IN HORROR\r KNOWING THAT THERE IS NO GOING BACK.\r"
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "OUR THOUGHTS INTERTWINE.\r"
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
@@ -75,10 +75,10 @@ MonoBehaviour:
     playerAnimation: 0
   - dialog: "BUT I DON'T WANT TO DIE\r.\nPLEASE DON'T KILL ME.\r"
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "\u2026"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "Would you agree to help if\u2026\r"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 4
@@ -111,12 +111,12 @@ MonoBehaviour:
     playerAnimation: 1
   - dialog: ...
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: 'VERY WELL.
 
       I SHALL AID YOU.'
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: Thank you.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 5
@@ -125,7 +125,7 @@ MonoBehaviour:
     playerAnimation: 2
   - dialog: "IIIII HAVE NO NAME\r.\nI NEED NO NAME."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 0
+    playerAnimation: 1
   - dialog: "Okay, I suppose we can work on that later\u2026"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 4
@@ -134,7 +134,7 @@ MonoBehaviour:
     playerAnimation: 5
   - dialog: "VERY WELL.\r\n...KRRISTYY\r."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "IT WILL BE A PLEASURE WORKING WITH YOU\r."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
