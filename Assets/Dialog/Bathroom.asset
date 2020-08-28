@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodes:
   - dialog: "The most basic plumbing in here. Really spared no expenses.\r"
-    profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 1
+    profile: {fileID: 0}
+    playerAnimation: 0
