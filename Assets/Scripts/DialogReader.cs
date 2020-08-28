@@ -75,7 +75,7 @@ public class DialogReader : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         DialogNode dialog = other.GetComponent<DialogNode>();
-        if (dialog == currentNode)
+        if (dialog == currentNode && currentNode != null)
         {
             currentNode.SetVisible(false);
             currentNode = null;

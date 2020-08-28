@@ -27,6 +27,7 @@ public class DialogInterface : MonoBehaviour
         else
         {
             profileImage.texture = node.profile;
+            ValidateTexture();
             animator.SetTrigger("Pop-in");
             shown = true;
         }
@@ -41,5 +42,17 @@ public class DialogInterface : MonoBehaviour
     public void SwapImage()
     {
         profileImage.texture = queuedTexture;
+        ValidateTexture();
+    }
+
+    public void ValidateTexture()
+    {
+        if(profileImage.texture == null)
+        {
+            profileImage.color = Color.clear;
+        } else
+        {
+            profileImage.color = Color.white;
+        }
     }
 }
