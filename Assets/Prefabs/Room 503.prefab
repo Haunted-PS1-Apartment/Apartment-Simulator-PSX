@@ -537,3 +537,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4058663143542217680, guid: ad1bc6c8a7bc1c245bb9c23a02316f58, type: 3}
   m_PrefabInstance: {fileID: 5227994980565876610}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7148485951902304958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3784573877612834596}
+    m_Modifications:
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553576, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3061535719123553579, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}
+      propertyPath: m_Name
+      value: Room Cameras
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec04296adebd2b54b8866ec6e090959d, type: 3}

@@ -1645,6 +1645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8826273064415528414, guid: ed36395d735036245b949cf6e069dd5c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed36395d735036245b949cf6e069dd5c, type: 3}
 --- !u!114 &412652635 stripped
@@ -7188,31 +7192,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459556, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.7702489
+      value: 3.6567688
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459556, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459556, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.046239
+      value: 2.1096025
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459556, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.11067386
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459556, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.69198406
+      value: -0.757763
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459556, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.1333073
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459556, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7219128
+      value: 0.6291071
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459556, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: m_RootOrder
@@ -7232,11 +7236,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459557, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: field of view
-      value: 90
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459557, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: far clip plane
-      value: 5000
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 269954721897459559, guid: 95749966ffbaa9247abd6face3f41ef7, type: 3}
       propertyPath: m_LookAt
