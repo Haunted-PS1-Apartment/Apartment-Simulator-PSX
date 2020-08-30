@@ -16,7 +16,9 @@ MonoBehaviour:
   - dialog: "YOU ARE HERE TO KILL ME.\r"
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 1
-  - dialog: "IT'SSS WHAT THEY WANT. \rTHEY FEAR ME."
+  - dialog: 'IT''SSS WHAT THEY WANT.
+
+      THEY FEAR ME.'
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
   - dialog: THEY FEAR WHAT I HAVE BECOME.
@@ -30,15 +32,15 @@ MonoBehaviour:
     playerAnimation: 1
   - dialog: "You\u2019re in pain\u2026 You\u2019re hungry, you\u2019re scared.\r"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 3
+    playerAnimation: 0
   - dialog: 'That much I understand but what you did was wrong.
 
 '
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 3
+    playerAnimation: 0
   - dialog: "WHATT THOSE HUMANS DID TO ME WAS WRONG\r."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: "THIS FORM HURTS\r.\nI CAN FEEL THEIR PAIN\r.\nI CAN HEAR THEIR CRIES."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
@@ -64,7 +66,7 @@ MonoBehaviour:
       AIR\r."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
-  - dialog: "THEY CAN ONLY WATCH IN HORROR\r KNOWING THAT THERE IS NO GOING BACK.\r"
+  - dialog: THEY CAN ONLY WATCH KNOWING THERE IS NO END.
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
   - dialog: "OUR THOUGHTS INTERTWINE.\r"
@@ -91,24 +93,24 @@ MonoBehaviour:
   - dialog: "But I also can\u2019t forgive the people who caused this in the first
       place."
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 3
+    playerAnimation: 0
   - dialog: "They want me to exterminate you because they want to hide what they\u2019re
       doing."
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 3
   - dialog: Not... because they care about the missing residents.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 3
+    playerAnimation: 0
   - dialog: HHHHHHHHHH...
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 1
-  - dialog: "Work with me and I will find a way to send you back home.\r I promise."
+  - dialog: "Work with me and I will find a way to send you home.\r I promise."
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 3
-  - dialog: "I refuse to kill you because that\u2019s what WynCo wants,\r but don\u2019t
-      make me force my hand.\r"
+    playerAnimation: 0
+  - dialog: "I refuse to kill you. That\u2019s what WynCo wants,\r but don\u2019t
+      make me force my hand."
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 1
+    playerAnimation: 0
   - dialog: ...
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
@@ -119,16 +121,16 @@ MonoBehaviour:
     playerAnimation: 0
   - dialog: Thank you.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 5
+    playerAnimation: 0
   - dialog: "If we\u2019re to be partners, I would like to know your name.\r"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 2
+    playerAnimation: 0
   - dialog: "IIIII HAVE NO NAME\r.\nI NEED NO NAME."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 1
   - dialog: "Okay, I suppose we can work on that later\u2026"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
-    playerAnimation: 4
+    playerAnimation: 0
   - dialog: "I\u2019m agent Kristy Reynolds.\r\nJust call me Kristy.\r"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 5
