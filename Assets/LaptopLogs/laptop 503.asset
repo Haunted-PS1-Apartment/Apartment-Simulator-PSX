@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71255184ff031484dac498aba74d2b7d, type: 3}
+  m_Name: laptop 503
+  m_EditorClassIdentifier: 
+  text: "The police dropped by earlier to ask about the guy in room 501 going missing.
+    I have nothing to say; we never talked, in fact we made sure to avoid each other.
+    It\u2019s not my problem. What is a problem for me is that I think that now my
+    plumbing is acting up the way his did, which is juuust great and I\u2019m getting
+    a rash as well. I don\u2019t know if it\u2019s the hard water or my skin not
+    agreeing with the soap they use for the bedding but I should maybe schedule an
+    appointment with the dermatologist.\r"

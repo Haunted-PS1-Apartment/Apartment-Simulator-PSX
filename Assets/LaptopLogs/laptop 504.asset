@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71255184ff031484dac498aba74d2b7d, type: 3}
+  m_Name: laptop 504
+  m_EditorClassIdentifier: 
+  text: "I feel kinda bad I still have boxes to unpack that are just sitting in the
+    hallway but this apartment isn\u2019t exactly the roomiest place to store things
+    in, oops. At least the neighbors seem trustworthy enough! I think when you live
+    in a place like this there\u2019s a sort of kinship you form with everyone. At
+    least that\u2019s what I assume. Of course I do also feel bad that that bulky
+    sofa is in the hallway as well. I needed to trade it out for a new one because
+    that stain from the previous owner is\u2026 yeah, no. If no one comes to claim
+    it I might ask someone else to help me drag it out because I feel like everytime
+    I look the stairway seems further and further away. I think it\u2019s just because
+    I\u2019m weak and lazy lol. Other than that I think this place should work just
+    fine as my first apartment. The equipment malfunctions and occasionally I have
+    to wait for the water to run clear, but\u2026 you get what you pay for, I guess!\r"

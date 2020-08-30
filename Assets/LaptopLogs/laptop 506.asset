@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71255184ff031484dac498aba74d2b7d, type: 3}
+  m_Name: laptop 506
+  m_EditorClassIdentifier: 
+  text: "The hallway has grown another foot today. I don\u2019t think anyone notices
+    that because they\u2019ve gotten so used to making their way from the stairs
+    ever since the apartments next to the elevator started smelling so bad. I measured
+    the other floors too and they\u2019re shorter than ours. None of the neighbors
+    believe me when I tell them that we didn\u2019t always have a hallway that twists
+    and turns like it does now. Everyone leaves overnight but the sounds I hear keep
+    me awake. Every time I try explaining it to Barry he deflects the conversation.
+    He\u2019s hiding something, I just know it. I don\u2019t think I\u2019ll be able
+    to record any further changes. My body hurts so much now. It hurts. Why am I
+    here? I\u2019m lost. What\u2019s happening to me? I\u2019m scared. I\u2019m scared.
+    I\u2019m scared. I\u2019m scared. I\u2019m scared. It hurts.\r"

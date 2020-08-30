@@ -38,19 +38,29 @@ MonoBehaviour:
 '
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 0
-  - dialog: "WHATT THOSE HUMANS DID TO ME WAS WRONG\r."
+  - dialog: WHATT THOSE HUMANS DID TO ME WAS WRONG.
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
-  - dialog: "THIS FORM HURTS\r.\nI CAN FEEL THEIR PAIN\r.\nI CAN HEAR THEIR CRIES."
+  - dialog: 'THIS FORM HURTS.
+
+      I FEEL THEIR PAIN.
+
+      I CAN HEAR THEIR CRIES.'
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
   - dialog: I AM IN HELL.
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
-  - dialog: "BUT I AM HUNGRY\r...\nAND SCARED\r..."
+  - dialog: 'BUT I AM HUNGRY...
+
+      AND SCARED...'
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
-  - dialog: "AND WHEN I FEED THE PAIN GOES AWAY\r.\nTHEIR VOICES DIE OUT.\n"
+  - dialog: 'AND WHEN I FEED THE PAIN GOES AWAY.
+
+      THEIR VOICES DIE OUT.
+
+'
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
   - dialog: I DON'T WANT TO DIE.
@@ -59,11 +69,13 @@ MonoBehaviour:
   - dialog: "Can you bring them back?\r"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 0
-  - dialog: "I CANNOT\r."
+  - dialog: NO.
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
-  - dialog: "THEY ARE THE VERY GROUND UPON WHICH YOU WALK.\nTHE THICK AURA IN THE
-      AIR\r."
+  - dialog: 'THEY ARE THE VERY GROUND UPON WHICH YOU WALK.
+
+      THE THICK AURA
+      IN THE AIR.'
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
   - dialog: THEY CAN ONLY WATCH KNOWING THERE IS NO END.
@@ -75,7 +87,9 @@ MonoBehaviour:
   - dialog: "THEY LONG FOR DEATH\r...\nYET THEY ALREADY DEAD."
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
-  - dialog: "BUT I DON'T WANT TO DIE\r.\nPLEASE DON'T KILL ME.\r"
+  - dialog: 'BUT I DON''T WANT TO DIE.
+
+      PLEASE DON''T KILL ME.'
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
   - dialog: "\u2026"
@@ -104,11 +118,11 @@ MonoBehaviour:
   - dialog: HHHHHHHHHH...
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 1
-  - dialog: "Work with me and I will find a way to send you home.\r I promise."
+  - dialog: If you work with me... I promise I will find a way to send you home.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 0
-  - dialog: "I refuse to kill you. That\u2019s what WynCo wants,\r but don\u2019t
-      make me force my hand."
+  - dialog: I refuse to kill you because that's what WynCo wants. Don't force me
+      hand.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 0
   - dialog: ...
@@ -125,7 +139,9 @@ MonoBehaviour:
   - dialog: "If we\u2019re to be partners, I would like to know your name.\r"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 0
-  - dialog: "IIIII HAVE NO NAME\r.\nI NEED NO NAME."
+  - dialog: 'IIIII HAVE NO NAME.
+
+      I NEED NO NAME.'
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 1
   - dialog: "Okay, I suppose we can work on that later\u2026"
@@ -134,9 +150,11 @@ MonoBehaviour:
   - dialog: "I\u2019m agent Kristy Reynolds.\r\nJust call me Kristy.\r"
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 5
-  - dialog: "VERY WELL.\r\n...KRRISTYY\r."
+  - dialog: 'VERY WELL.
+
+      ... KRRISTYYY.'
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0
-  - dialog: "IT WILL BE A PLEASURE WORKING WITH YOU\r."
+  - dialog: IT WILL BE A PLEASURE WORKING WITH YOU.
     profile: {fileID: 2800000, guid: b1e9430fb6b15a74485616d8e2d2d7b3, type: 3}
     playerAnimation: 0

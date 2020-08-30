@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71255184ff031484dac498aba74d2b7d, type: 3}
+  m_Name: laptop 508
+  m_EditorClassIdentifier: 
+  text: "I DON'T WANT TO DIE\r\nI DON'T WANT TO DIE\r\nIT HURTS\r\nWHY AM I HERE\r\nI
+    DON'T DESERVE THIS\r\nI'M SORRY\r\nI'M SCARED\r\nI DON'T WANT TO DIE\r\nI CAN'T
+    FEEL MY BODY\r\nI'M SCARED\r\nI'M SCARED\r\nIT HURTS\r\nLET ME DIE\r\nEND THIS\r\nI'M
+    HUNGRY\r\nIT HURTS\r\nI CAN'T SEE\r\nI'M SCARED\r\nI DON'T WANT TO DIE\r\nI'M
+    SCARED\r"
