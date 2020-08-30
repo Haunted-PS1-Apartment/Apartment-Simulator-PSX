@@ -246,6 +246,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.65
       objectReference: {fileID: 0}
+    - target: {fileID: -7959762596227801743, guid: fade4c9197c4609408bc541afe114c22, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b4958998dc584fa47b078e17fc1ae004, type: 2}
+    - target: {fileID: -7918335002988649766, guid: fade4c9197c4609408bc541afe114c22, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 81fae44296f402d49b4d30fccac8358a, type: 2}
     - target: {fileID: -7121678310868346910, guid: fade4c9197c4609408bc541afe114c22, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
