@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71255184ff031484dac498aba74d2b7d, type: 3}
+  m_Name: laptop 501
+  m_EditorClassIdentifier: 
+  text: "I swear I haven\u2019t had a good night\u2019s sleep in the last few days
+    and it\u2019s killing me. The neighbor\u2019s dog yapping this week is NOT helping
+    but if it keeps its bitch of an owner up too then I\u2019ll be happy. She had
+    the audacity to report me for some bullshit noise complaint. I told her it\u2019s
+    the pipes or something but maintenance couldn\u2019t find a damn thing. There\u2019s
+    a rumbling under my bed that keeps me up as well and room 401 apparently thinks
+    I\u2019m stomping around up here or something. I think the bed is malfunctioning.
+    I mean that\u2019s the only explanation I can find because Lee isn\u2019t helping
+    any. He tries but I swear this place is falling apart on us. Am I just cursed?
+    I can\u2019t take it here anymore. Every time I wake up I see that damn patronizing
+    cat picture. I need to leave this place and when I do I\u2019m taking the fucking
+    dog with me.\r"

@@ -2692,6 +2692,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3482599626735259911, guid: 5294a97f28761f947a30de3dab167c9a, type: 3}
+--- !u!114 &694238220 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8599920548661286426, guid: ed36395d735036245b949cf6e069dd5c, type: 3}
+  m_PrefabInstance: {fileID: 412652634}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04577857729f3274ba7d43c181b5ab18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &704476926
 GameObject:
   m_ObjectHideFlags: 0
@@ -7937,6 +7948,10 @@ PrefabInstance:
       propertyPath: dialogUI
       value: 
       objectReference: {fileID: 412652635}
+    - target: {fileID: 2601703094814473562, guid: 2c661899ccd9b8843a75a781ce5898e3, type: 3}
+      propertyPath: laptopInterface
+      value: 
+      objectReference: {fileID: 694238220}
     - target: {fileID: 8590823115565125074, guid: 2c661899ccd9b8843a75a781ce5898e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.68

@@ -7,13 +7,17 @@ public class DialogReader : MonoBehaviour
 {
     [SerializeField] DialogInterface dialogUI = null;
     [SerializeField] PlayerMovement movement = null;
+    [SerializeField] LaptopInterface laptopInterface = null;
 
     Conversation currentConversation = null;
     int conversationIndex = 0;
+    bool readingALaptop = false;
 
     PlayerInputActions controls;
 
     DialogNode currentNode = null;
+    LaptopNode laptopNode = null;
+    bool laptopActive = false;
 
     void Awake()
     {
@@ -48,12 +52,24 @@ public class DialogReader : MonoBehaviour
                 movement.StartAnimation(currentConversation.nodes[conversationIndex].playerAnimation);
             }
         }
-        else if(currentNode != null)
+        else if (readingALaptop)
+        {
+            readingALaptop = false;
+            laptopInterface.CloseText();
+            movement.EndAnimation();
+        }
+        else if(laptopNode != null && laptopActive)
+        {
+            laptopInterface.ShowText(laptopNode.GetLog);
+            readingALaptop = true;
+            movement.StartAnimation(PlayerMovement.PlayerAnim.Think);
+        } 
+        else if (currentNode != null)
         {
             currentConversation = currentNode.GetConversation();
             conversationIndex = 0;
             dialogUI.ShowDialog(currentConversation.nodes[conversationIndex]);
-            movement.StartAnimation(currentConversation.nodes[conversationIndex].playerAnimation, 
+            movement.StartAnimation(currentConversation.nodes[conversationIndex].playerAnimation,
                 currentNode.TurnToFace ? currentNode.transform : null);
         }
     }
@@ -67,8 +83,28 @@ public class DialogReader : MonoBehaviour
             {
                 currentNode.SetVisible(false);
             }
+            if(laptopNode != null)
+            {
+                laptopNode.SetVisible(false);
+                laptopActive = false;
+            }
             currentNode = dialog;
             currentNode.SetVisible(true);
+        }
+        LaptopNode laptop = other.GetComponent<LaptopNode>();
+        if (laptop != null && laptop != laptopNode)
+        {
+            if (currentNode != null)
+            {
+                currentNode.SetVisible(false);
+            }
+            laptopActive = true;
+            if (laptopNode != null)
+            {
+                laptopNode.SetVisible(false);
+            }
+            laptopNode = laptop;
+            laptopNode.SetVisible(true);
         }
     }
 
@@ -79,6 +115,12 @@ public class DialogReader : MonoBehaviour
         {
             currentNode.SetVisible(false);
             currentNode = null;
+        }
+        LaptopNode laptop = other.GetComponent<LaptopNode>();
+        if (laptop == laptopNode && laptopNode != null)
+        {
+            laptopNode.SetVisible(false);
+            laptopNode = null;
         }
     }
 }
