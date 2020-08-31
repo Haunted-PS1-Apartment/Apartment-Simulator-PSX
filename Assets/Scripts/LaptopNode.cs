@@ -10,7 +10,6 @@ public class LaptopNode : MonoBehaviour
     bool turnToFace = true;
     [SerializeField]
     GameObject indicator = null;
-    int index = 0;
 
     private void Start()
     {

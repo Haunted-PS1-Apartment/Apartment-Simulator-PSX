@@ -13,6 +13,9 @@ public class DialogNode : MonoBehaviour
     GameObject indicator = null;
     int index = 0;
 
+    [SerializeField] Animator NPCAnimator = null;
+    [SerializeField] string NPCTrigger = "Talk";
+
     private void Start()
     {
         SetVisible(false);
@@ -20,6 +23,11 @@ public class DialogNode : MonoBehaviour
 
     public Conversation GetConversation()
     {
+        if (NPCAnimator != null)
+        {
+            NPCAnimator.SetTrigger(NPCTrigger);
+        }
+
         int lastIndex = index;
         index = Math.Min(index + 1, conversations.Count - 1);
         return conversations[lastIndex];

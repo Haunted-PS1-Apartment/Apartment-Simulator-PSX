@@ -6,9 +6,9 @@ using UnityEngine.PlayerLoop;
 
 public class LaptopInterface : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI textUI;
-    [SerializeField] Animator animator;
-    [SerializeField] TextMeshProUGUI pageIndicator;
+    [SerializeField] TextMeshProUGUI textUI = null;
+    [SerializeField] Animator animator = null;
+    [SerializeField] TextMeshProUGUI pageIndicator = null;
 
     PlayerInputActions controls;
 

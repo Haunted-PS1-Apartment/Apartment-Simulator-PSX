@@ -7,9 +7,9 @@ public class EyeTrigger : MonoBehaviour
 {
     [SerializeField] float time = .5f;
     [SerializeField] Vector3 offset = Vector3.zero;
-    [SerializeField] AnimationCurve curve;
-    [SerializeField] GameObject disableObject;
-    [SerializeField] GameObject eyeObject;
+    [SerializeField] AnimationCurve curve = null;
+    [SerializeField] GameObject disableObject = null;
+    [SerializeField] GameObject eyeObject = null;
 
     float startTime = 0;
     Vector3 originalPosition;

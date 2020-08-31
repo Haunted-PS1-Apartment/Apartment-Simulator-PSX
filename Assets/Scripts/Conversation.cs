@@ -8,6 +8,14 @@ public class Conversation : ScriptableObject
     [SerializeField] public List<ConversationNode> nodes = new List<ConversationNode>();
 }
 
+public enum SecondaryAnimation
+{
+    None,
+    Talking,
+    Wave,
+    Idle
+}
+
 [System.Serializable]
 public class ConversationNode
 {

@@ -15,7 +15,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -23,7 +24,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -77,7 +78,82 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: LeeMitchell(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: LeeMitchell(Clone)
+      position: {x: 0.0011956953, y: 2.2874737, z: 0.044630885}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 12.86358, y: 12.86358, z: 12.86358}
+    - name: Light
+      parentName: LeeMitchell(Clone)
+      position: {x: 0.22668397, y: 16.11416, z: 3.0799518}
+      rotation: {x: 0.52327543, y: -0.34203407, z: 0.7269423, w: 0.2841663}
+      scale: {x: 3964.6565, y: 1388.6178, z: 1343.4264}
+    - name: Camera
+      parentName: LeeMitchell(Clone)
+      position: {x: -7.3588915, y: 4.958309, z: 6.925791}
+      rotation: {x: 0.0906284, y: 0.8937962, z: -0.20997299, w: 0.38577998}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: Cube.001
+      parentName: LeeMitchell(Clone)
+      position: {x: -0.10706043, y: 2.5217009, z: 0.17949241}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 13.410246, y: 13.410246, z: 13.410246}
+    - name: Cube.002
+      parentName: LeeMitchell(Clone)
+      position: {x: -0.10706043, y: 2.5217009, z: 0.17949241}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 13.410246, y: 13.410246, z: 13.410246}
+    - name: Cube.003
+      parentName: LeeMitchell(Clone)
+      position: {x: 0.10433822, y: 2.5217009, z: 0.17949241}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: -13.410246, y: -13.410246, z: -13.410246}
+    - name: Cube.004
+      parentName: LeeMitchell(Clone)
+      position: {x: -0.10706043, y: 2.5217009, z: 0.17949241}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 13.410246, y: 13.410246, z: 13.410246}
+    - name: Cube.005
+      parentName: LeeMitchell(Clone)
+      position: {x: -0.10706043, y: 1.4126376, z: 0.17949241}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 13.410246, y: 13.410246, z: 13.410246}
+    - name: Cube.006
+      parentName: LeeMitchell(Clone)
+      position: {x: -0.10706043, y: 2.5217009, z: 0.17949241}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 13.410246, y: 13.410246, z: 13.410246}
+    - name: Cube.007
+      parentName: LeeMitchell(Clone)
+      position: {x: -0.10706043, y: 2.5217009, z: 0.17949241}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 13.410246, y: 13.410246, z: 13.410246}
+    - name: Cube.008
+      parentName: LeeMitchell(Clone)
+      position: {x: -0.1437675, y: 0.48947906, z: 0.09151745}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 13.410246, y: 13.410246, z: 13.410246}
+    - name: Cube.009
+      parentName: LeeMitchell(Clone)
+      position: {x: 0.1519812, y: 0.49302197, z: 0.09151745}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: -13.410246, y: -13.410246, z: -13.410246}
+    - name: mesh_grp
+      parentName: LeeMitchell(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 984.10895, y: 984.10895, z: 984.10895}
+    - name: body_grp
+      parentName: mesh_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -88,11 +164,11 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   avatarSetup: 0
   additionalBone: 0
