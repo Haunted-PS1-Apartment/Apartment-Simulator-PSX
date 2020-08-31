@@ -9,6 +9,7 @@ public class LaptopInterface : MonoBehaviour
     [SerializeField] TextMeshProUGUI textUI = null;
     [SerializeField] Animator animator = null;
     [SerializeField] TextMeshProUGUI pageIndicator = null;
+    [SerializeField] AudioSource pageSound = null;
 
     PlayerInputActions controls;
 
@@ -30,6 +31,7 @@ public class LaptopInterface : MonoBehaviour
     void Update()
     {
         Vector2 movement = controls.Player.Move.ReadValue<Vector2>();
+        int lastPage = textUI.pageToDisplay;
         if (movement.y > 0)
         {
             textUI.pageToDisplay = 1;
@@ -38,6 +40,10 @@ public class LaptopInterface : MonoBehaviour
         {
             textUI.pageToDisplay = 2;
             pageIndicator.text = "pg 2/2";
+        }
+        if(textUI.pageToDisplay != lastPage)
+        {
+            pageSound.Play();
         }
     }
 

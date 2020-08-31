@@ -9,12 +9,14 @@ public class DialogInterface : MonoBehaviour
     [SerializeField] TMPro.TextMeshProUGUI dialogText = null;
     [SerializeField] Animator animator = null;
     [SerializeField] RawImage profileImage = null;
+    [SerializeField] AudioSource dialogSound = null;
 
     bool shown = false;
     Texture2D queuedTexture = null;
 
     public void ShowDialog(ConversationNode node)
     {
+        dialogSound.Play();
         dialogText.SetText(node.dialog);
         if (shown)
         {
