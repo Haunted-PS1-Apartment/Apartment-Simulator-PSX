@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class DialogReader : MonoBehaviour
 {
     [SerializeField] DialogInterface dialogUI = null;
     [SerializeField] PlayerMovement movement = null;
     [SerializeField] LaptopInterface laptopInterface = null;
+
+    [SerializeField] Conversation sceneTransitionConversation = null;
+    [SerializeField] string nextScene = null;
+    [SerializeField] Animator fadeOut = null;
 
     Conversation currentConversation = null;
     int conversationIndex = 0;
@@ -18,6 +23,8 @@ public class DialogReader : MonoBehaviour
     DialogNode currentNode = null;
     LaptopNode laptopNode = null;
     bool laptopActive = false;
+
+    
 
     void Awake()
     {
@@ -35,6 +42,13 @@ public class DialogReader : MonoBehaviour
         controls.Disable();
     }
 
+    IEnumerator Transition()
+    {
+        fadeOut.SetTrigger("FadeOut");
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(nextScene);
+    }
+
     void Interact(InputAction.CallbackContext context)
     {
         if(currentConversation != null)
@@ -42,9 +56,13 @@ public class DialogReader : MonoBehaviour
             conversationIndex++;
             if(conversationIndex >= currentConversation.nodes.Count)
             {
-                currentConversation = null;
+                if (currentConversation == sceneTransitionConversation)
+                {
+                    StartCoroutine(Transition());
+                }
                 dialogUI.CloseDialog();
                 movement.EndAnimation();
+                currentConversation = null;
             } 
             else
             {

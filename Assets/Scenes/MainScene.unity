@@ -1662,6 +1662,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a7219e7e9a79d48b10956b459b6b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &412652636 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2135276707092475372, guid: ed36395d735036245b949cf6e069dd5c, type: 3}
+  m_PrefabInstance: {fileID: 412652634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &440931949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2480798284487121036, guid: 2442b495acc47484fabd4a7ed755d335, type: 3}
@@ -7885,6 +7890,18 @@ PrefabInstance:
       propertyPath: laptopInterface
       value: 
       objectReference: {fileID: 694238220}
+    - target: {fileID: 2601703094814473562, guid: 2c661899ccd9b8843a75a781ce5898e3, type: 3}
+      propertyPath: sceneTransitionConversation
+      value: 
+      objectReference: {fileID: 11400000, guid: 4e6d2d3b944c10a449c10237b8bbece7, type: 2}
+    - target: {fileID: 2601703094814473562, guid: 2c661899ccd9b8843a75a781ce5898e3, type: 3}
+      propertyPath: nextScene
+      value: EndingScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2601703094814473562, guid: 2c661899ccd9b8843a75a781ce5898e3, type: 3}
+      propertyPath: fadeOut
+      value: 
+      objectReference: {fileID: 412652636}
     - target: {fileID: 8590823115565125074, guid: 2c661899ccd9b8843a75a781ce5898e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.68
