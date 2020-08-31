@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: MeatHallway
   m_EditorClassIdentifier: 
   nodes:
-  - dialog: The stairs were supposed to be here...
+  - dialog: The stairs should be here...
     profile: {fileID: 0}
     playerAnimation: 1
-  - dialog: Now I understand why Lee said this floor is inaccessible via the stairway.
+  - dialog: Mow I understand why Lee said the 5th floor was blocked from the stairway.
     profile: {fileID: 0}
-    playerAnimation: 1
-  - dialog: "Seems like they were right about the hallway\u2026 growing."
+    playerAnimation: 0
+  - dialog: Seems like they were right about the hallway... growing.
     profile: {fileID: 0}
-    playerAnimation: 1
+    playerAnimation: 0

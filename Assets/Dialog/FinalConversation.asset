@@ -121,7 +121,7 @@ MonoBehaviour:
   - dialog: If you work with me... I promise I will find a way to send you home.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 0
-  - dialog: I refuse to kill you because that's what WynCo wants. Don't force me
+  - dialog: I refuse to kill you because that's what WynCo wants. Don't force my
       hand.
     profile: {fileID: 2800000, guid: 0da211e5eda956e48bf51c3534e1a2ff, type: 3}
     playerAnimation: 0
