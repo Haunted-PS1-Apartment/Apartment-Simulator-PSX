@@ -53,7 +53,6 @@ GameObject:
   m_Component:
   - component: {fileID: 269954721897459556}
   - component: {fileID: 269954721897459557}
-  - component: {fileID: 269954721897459558}
   - component: {fileID: 269954721897459563}
   m_Layer: 10
   m_Name: Main Camera
@@ -102,8 +101,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 1000
-  field of view: 75
+  far clip plane: 5000
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -121,14 +120,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &269954721897459558
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 269954721897459552}
-  m_Enabled: 1
 --- !u!114 &269954721897459563
 MonoBehaviour:
   m_ObjectHideFlags: 0

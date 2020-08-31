@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8590823115565125073}
   - component: {fileID: 4485596039234947039}
   - component: {fileID: 2601703094814473562}
+  - component: {fileID: 7975435977134441947}
   m_Layer: 18
   m_Name: player controller
   m_TagString: Untagged
@@ -147,6 +148,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogUI: {fileID: 0}
   movement: {fileID: 8590823115565125072}
+  laptopInterface: {fileID: 0}
+  sceneTransitionConversation: {fileID: 0}
+  nextScene: 
+  fadeOut: {fileID: 0}
+--- !u!81 &7975435977134441947
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8590823115565125102}
+  m_Enabled: 1
 --- !u!1 &8590823117017076290
 GameObject:
   m_ObjectHideFlags: 0
